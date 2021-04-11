@@ -108,7 +108,7 @@ footer {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .h1 {
     font-size: 30px!important;
 }
@@ -120,4 +120,20 @@ footer {
 p {
     font-size: 10px!important;
 }
+
+.information {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column!important;
+}
+
+.information img {
+    display: none;
+}
+
+.ml-5,
+.mr-5 {
+    margin: 0!important;
+}
+
 }
