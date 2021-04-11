@@ -47,11 +47,15 @@ footer {
 }
 
 .footerTop {
-    background-color: #FFD6B2;
+    background-color: #FFF;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+}
+
+.footerTop img {
+    padding
 }
 
 .contactUs {
