@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSRF Token -->
+	<meta name="csrf-token" content="{{ csrf_token() }}">
+
+	<title>Hospitality Search International</title>
+
+	<!-- Scripts -->
+	<script src="{{ asset('js/app.js') }}" defer></script>
+
+	<!-- Fonts -->
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+	integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+	<!-- Styles -->
+	<link href="public/css/app.css" rel="stylesheet">
+	<link href="public/css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div id="app">
+		<nav class="navbar navbar-expand-md navbar-light shadow-sm">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<div><img src="public/images/hydrate_logo_web.png" alt="Hydrate & Glo Logo" style="max-height: 5rem;"></div>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="{{ __('Toggle navigation') }}">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+				<!-- Right Side Of Navbar -->
+				<ul class="navbar-nav ml-auto">
+					<li class="pr-3"><a href="index.html">Home</a></li>
+					<li class="pr-3"><a href="our_water.html">Our Water</a></li>
+					<li class="pr-3"><a href="sustainability.html">Sustainabilty</a></li>
+					<li class="pr-3"><a href="community.html">Community</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+<div class="redOmbre">
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-12 pt-5">
+			<div class="d-flex justify-content-center align-items-baseline">
+				<div class="d-flex align-items-center pb-3">
+					<div class="h1" style="font-size:60px">Sustainability</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<div class="d-flex justify-content-center align-items-baseline">
+				<div class="d-flex align-items-center text-center pb-3">
+					<p>Many people choose to use collagen products to help nourish their skin and combat the visible effects of ageing, however applying collagen topically has never been shown to stimulate collagen synthesis nor growth. This is because collagens have molecular weights making them too large to penetrate the top layer of skin.  When supplemented orally with vitamin c for collagen synthesis, you can enjoy an abundance of health and beauty anti-ageing benefits.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row d-flex align-items-center mb-5 ml-5">
+		<div class="info col d-flex flex-column justify-content-center align-items-center">
+			<div class="h1 cursive">Our Collagen</div>
+			<div class="text-center">Our Bovine collagen is sourced from materials that are by-products from the already established cattle industries.  Using the cattle hides that were to be discarded helps to reduce the waste and environmental impact within the livestock industry.</div>
+		</div>
+		<div class="col image">
+			<img src="public/images/icons/Asset_8.svg" alt="Glowing Skin Icon" style="max-height: 10rem;">
+		</div>
+	</div>
+	<div class="row d-flex align-items-center mb-5 mr-5">
+		<div class="col image">
+			<img src="public/images/icons/Asset_8.svg" alt="Glowing Skin Icon" style="max-height: 10rem;">
+		</div>
+		<div class="info col d-flex flex-column justify-content-center align-items-center">
+			<div class="h1 cursive">Our Packaging</div>
+			<div class="text-center">Our eco-friendly bottles are made using RPET, recycled plastic that was headed for landfills to cause more pollution.  This sustainable option is 100% recyclable and uses less energy to both recycle and manufacture than other PET plastic bottles, lowering the carbon footprint.  Its exceptional capacity-to-weight ratio also helps cut fuel costs during transportation, conversely lessening CO2 emissions to the environment.</div>
+		</div>
+	</div>
+	<div class="row d-flex align-items-center mb-5 ml-5">
+		<div class="info col d-flex flex-column justify-content-center align-items-center">
+			<div class="h1 cursive">Our Community</div>
+			<div class="text-center pb-3">At Glo Collagen Water we want to make sure that as we grow, our contribution to the environment also grows.  That is why we reached out to Trees For Cities, a UK charity that are helping to create a healthier environment both nationally and internationally through their work planting trees and educating our future generations.  Find out about how we intend to play our part and what we can do to contribute to important causes like that of Trees For Cities.</div>
+			<a href="community.html">
+				<button class="btn btn-dark">Learn More</button>
+			</a>
+		</div>
+		<div class="col image">
+			<img src="public/images/icons/Asset_8.svg" alt="Glowing Skin Icon" style="max-height: 10rem;">
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="footerTop">
+		<div class="logo pl-4">
+			<img src="public/images/hydrate_logo_web.png" alt="Hydrate & Glo Logo" style="max-height: 5rem;">
+		</div>
+		<div class="contactUs pt-4 pb-4" style=" font-size: 10px;">
+
+		</div>
+	</div>
+	<div class="footerBtm">
+		<div class="copyright">
+			<span>&copy; Hydrate & Glo 2021 | All rights reserved | TB Web Design
+			</span>
+		</div>
+		<div class="socials">
+			<div class="pr-3"><a
+				href=""
+				target="_blank" title="Follow us on LinkedIn"><i class="fab fa-2x fa-linkedin"></i></a></div>
+				<div class="pr-3"><a href="" target="_blank"
+					title="Follow us on Facebook"><i class="fab fa-2x fa-facebook-square"></i></a></div>
+					<div class="pr-3"><a href="" target="_blank"
+						title="Instagram"><i class="fab fa-2x fa-instagram"></i></a></div>
+					</div>
+				</div>
+			</footer>
+		</body>
+		</html>

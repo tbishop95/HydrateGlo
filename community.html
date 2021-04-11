@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSRF Token -->
+	<meta name="csrf-token" content="{{ csrf_token() }}">
+
+	<title>Hospitality Search International</title>
+
+	<!-- Scripts -->
+	<script src="{{ asset('js/app.js') }}" defer></script>
+
+	<!-- Fonts -->
+	<link rel="dns-prefetch" href="//fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+	integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+	<!-- Styles -->
+	<link href="public/css/app.css" rel="stylesheet">
+	<link href="public/css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div id="app">
+		<nav class="navbar navbar-expand-md navbar-light shadow-sm">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<div><img src="public/images/hydrate_logo_web.png" alt="Hydrate & Glo Logo" style="max-height: 5rem;"></div>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="{{ __('Toggle navigation') }}">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+				<!-- Right Side Of Navbar -->
+				<ul class="navbar-nav ml-auto">
+					<li class="pr-3"><a href="index.html">Home</a></li>
+					<li class="pr-3"><a href="our_water.html">Our Water</a></li>
+					<li class="pr-3"><a href="sustainability.html">Sustainabilty</a></li>
+					<li class="pr-3"><a href="community.html">Community</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+</div>
+<div class="orangeOmbre">
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-12 pt-5">
+			<div class="d-flex justify-content-center align-items-baseline">
+				<div class="d-flex align-items-center pb-3">
+					<div class="h1" style="font-size:60px">Our Community</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-12">
+			<div class="d-flex justify-content-center align-items-baseline">
+				<div class="d-flex align-items-center text-center pb-3">
+					<p>Charities play a vital role in our society, bringing people together who care about a cause so that we can all benefit. We have created a community of charities that are close to our hearts, involved with causes that have formed our identity. We promise to donate 10% of all profits to our chosen charities, so that they can continue to make a difference.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row d-flex align-items-center mb-5 ml-5">
+		<div class="info col d-flex flex-column justify-content-center align-items-center">
+			<div class="h1 cursive">National Autistic Society</div>
+			<div class="text-center">One in every hundred people are on the autism spectrum, affecting how people communicate and interact with the world.  Autism is a lifelong developmental condition and can affect people in different ways, meaning the support needed for individuals and their families is vastly differing and ever changing.  Making society work for autistic people is a highly complex challenge and the work that the National Autistic Society does is vital to hundreds of thousands of lives across the UK.
+			</div>
+		</div>
+		<div class="col image">
+			<img src="public/images/icons/Asset_8.svg" alt="Glowing Skin Icon" style="max-height: 10rem;">
+		</div>
+	</div>
+	<div class="row d-flex align-items-center mb-5 mr-5">
+		<div class="col image">
+			<img src="public/images/icons/Asset_8.svg" alt="Glowing Skin Icon" style="max-height: 10rem;">
+		</div>
+		<div class="info col d-flex flex-column justify-content-center align-items-center">
+			<div class="h1 cursive">MS Society</div>
+			<div class="text-center">Multiple Sclerosis, or MS is a neurological condition where the immune system which normally protects us, instead attacks your nerves affecting many parts of the body.  MS is an extremely complex condition with varying symptoms which at present is incurable.  The research carried out by the MS Society is not only crucial to helping us understand the condition so we can better manage the symptoms, but one day we may be able to stop MS all together.
+			</div>
+		</div>
+	</div>
+	<div class="row d-flex align-items-center mb-5 ml-5">
+		<div class="info col d-flex flex-column justify-content-center align-items-center">
+			<div class="h1 cursive">Trees For Cities
+			</div>
+			<div class="text-center">Each year London’s trees alone remove 2.4 million tonnes of air pollution.  By planting thousands of urban trees worldwide each year, Trees For Cities are helping to fight against the unprecedented effects of climate change.  Just as crucial to combatting the threats facing the natural environment, is education. Our future generations will be responsible for carrying on this fight, which is why Trees For Cities provide a whole host of school resources including support teachers, so our children can learn about everything from trees to nature and food growing.
+			</div>
+		</div>
+		<div class="col image">
+			<img src="public/images/icons/Asset_8.svg" alt="Glowing Skin Icon" style="max-height: 10rem;">
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="footerTop">
+		<div class="logo pl-4">
+			<img src="public/images/hydrate_logo_web.png" alt="Hydrate & Glo Logo" style="max-height: 5rem;">
+		</div>
+		<div class="contactUs pt-4 pb-4" style=" font-size: 10px;">
+
+		</div>
+	</div>
+	<div class="footerBtm">
+		<div class="copyright">
+			<span>&copy; Hydrate & Glo 2021 | All rights reserved | TB Web Design
+			</span>
+		</div>
+		<div class="socials">
+			<div class="pr-3"><a
+				href=""
+				target="_blank" title="Follow us on LinkedIn"><i class="fab fa-2x fa-linkedin"></i></a></div>
+				<div class="pr-3"><a href="" target="_blank"
+					title="Follow us on Facebook"><i class="fab fa-2x fa-facebook-square"></i></a></div>
+					<div class="pr-3"><a href="" target="_blank"
+						title="Instagram"><i class="fab fa-2x fa-instagram"></i></a></div>
+					</div>
+				</div>
+			</footer>
+		</body>
+		</html>
