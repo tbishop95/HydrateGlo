@@ -148,8 +148,8 @@ p {
     margin: 0!important;
 }
 
-.copyright {
-    font-size: 0.75rem;
+.copyright span {
+    font-size: 8px;
 }
 
 }
