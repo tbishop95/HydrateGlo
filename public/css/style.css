@@ -56,14 +56,6 @@ footer {
     right: 0%;
 }
 
-.footerTop {
-    background-color: #FFF;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
 
 .contactUs {
     display: flex;
