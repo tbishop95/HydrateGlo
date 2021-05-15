@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'hello_bunnyregular';
+    src: url('hello_bunny-webfont.woff2') format('woff2'),
+         url('hello_bunny-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     background-color: white;
 }
@@ -42,6 +51,11 @@ ul a:hover {
 
 .mainContainer {
     margin-bottom: 10rem;
+}
+
+.cursive {
+    font-family: 'hello_bunnyregular', Arial, sans-serif; 
+    font-size: 75px;
 }
 
 
@@ -114,7 +128,7 @@ footer {
 
 @media screen and (max-width: 800px) {
   .h1 {
-    font-size: 30px!important;
+    font-size: 50px!important;
 }
 
 .info  {
