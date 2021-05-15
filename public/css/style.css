@@ -36,13 +36,22 @@ ul a:hover {
     text-align: center;
 }
 
+.hero-image {
+    z-index: 1;
+}
+
+.mainContainer {
+    margin-bottom: 10rem;
+}
+
 
 /*Footer Section*/
 footer {
     font-size: 1rem;
     color: #fff;
-    position: relative;
-    left: 0%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     top: auto;
     right: 0%;
 }
@@ -102,6 +111,7 @@ footer {
 
 .redOmbre {
     position: fixed;
+    z-index: 0;
     height: 100%;
     left: 0%;
     top: 0%;
