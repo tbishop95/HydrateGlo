@@ -64,9 +64,6 @@ footer {
     align-items: center;
 }
 
-.footerTop img {
-    padding
-}
 
 .contactUs {
     display: flex;
@@ -149,6 +146,10 @@ p {
 .ml-5,
 .mr-5 {
     margin: 0!important;
+}
+
+.copyright {
+    font-size: 0.75rem;
 }
 
 }
