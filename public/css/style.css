@@ -1,14 +1,18 @@
 @font-face {
     font-family: 'hello_bunnyregular';
     src: url('hello_bunny-webfont.woff2') format('woff2'),
-         url('hello_bunny-webfont.woff') format('woff');
+    url('hello_bunny-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
 }
 
 body {
-    background-color: white;
+  position: relative;
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+  background-color: white;
 }
 
 /*Nav Section*/
@@ -63,6 +67,16 @@ ul a:hover {
 footer {
     font-size: 1rem;
     color: #fff;
+}
+
+.footerTop {
+    background-color: #F7A054;
+    font-size: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem 1.25rem 1rem;
     position: fixed;
     left: 0;
     bottom: 0;
@@ -70,25 +84,19 @@ footer {
     right: 0%;
 }
 
-
-.contactUs {
-    display: flex;
-    flex-direction: column;
-    margin-right: 3rem;
-}
-
-.footerBtm {
-    background-color: #F7A054;
-    font-size: 0.75rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5rem;
-}
-
 .copyright {
     margin-left: 1rem;
+    color: #fff;
+    text-decoration: none;
+}
+.footer {
+  color: #FFF;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #F7A054;
+  text-align: center;
 }
 
 .socials {
