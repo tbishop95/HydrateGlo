@@ -62,6 +62,10 @@ ul a:hover {
     font-size: 75px;
 }
 
+.mobileLeft {
+    display: none;
+}
+
 
 /*Footer Section*/
 footer {
@@ -148,14 +152,27 @@ p {
 }
 
 .information {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column!important;
+    position: relative!important;
 }
 
-.information img {
+.webOnly {
     display: none;
 }
+
+
+.image, .mobile{
+  position: absolute!important;
+  width: 85px!important;
+  height: 85px!important;
+  top: 5px!important;
+  right:-10px;
+}
+
+.mobileLeft {
+    display: block;
+    left: -10px!important;
+}
+
 
 .ml-5,
 .mr-5 {
@@ -164,6 +181,10 @@ p {
 
 .copyright span {
     font-size: 8px;
+}
+
+.mainContainer {
+    margin-bottom: 5rem;
 }
 
 }
