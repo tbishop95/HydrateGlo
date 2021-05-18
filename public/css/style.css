@@ -139,36 +139,40 @@ footer {
 
 
 @media screen and (max-width: 800px) {
-  .h1 {
-    font-size: 50px!important;
-}
+    .logo{
+        max-height: 3rem!important;
+    }
 
-.info  {
-    font-size: 10px!important;
-}
+    .h1 {
+        font-size: 50px!important;
+    }
 
-p {
-    font-size: 10px!important;
-}
+    .info  {
+        font-size: 10px!important;
+    }
 
-.information {
-    position: relative!important;
-}
+    p {
+        font-size: 10px!important;
+    }
 
-.webOnly {
-    display: none;
-}
+    .information {
+        position: relative!important;
+    }
+
+    .webOnly {
+        display: none;
+    }
 
 
-.image, .mobile{
-  position: absolute!important;
-  width: 85px!important;
-  height: 85px!important;
-  top: 5px!important;
-  right:-10px;
-}
+    .image, .mobile{
+      position: absolute!important;
+      width: 85px!important;
+      height: 85px!important;
+      top: 5px!important;
+      right:-10px;
+  }
 
-.mobileLeft {
+  .mobileLeft {
     display: block;
     left: -10px!important;
 }
